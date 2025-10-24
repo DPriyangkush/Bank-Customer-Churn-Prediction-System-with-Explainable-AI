@@ -25,7 +25,7 @@ The system automatically selects the **best-performing model** from **XGBoost**,
 
 ```bash
 # Clone repository and setup environment
-git clone [<repository-url>](https://github.com/DPriyangkush/Customer-Churn-Prediction-System-with-Explainable-AI.git)
+git clone https://github.com/DPriyangkush/Customer-Churn-Prediction-System-with-Explainable-AI.git
 cd bank-churn-prediction
 
 # Create virtual environment
