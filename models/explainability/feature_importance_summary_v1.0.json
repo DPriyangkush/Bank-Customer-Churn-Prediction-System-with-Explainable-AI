@@ -1,0 +1,480 @@
+{
+  "feature_importance": [
+    {
+      "feature": "days_since_last_login",
+      "mean_abs_shap": 1.401082193950459
+    },
+    {
+      "feature": "overdraft_frequency",
+      "mean_abs_shap": 1.1069060657777132
+    },
+    {
+      "feature": "num_complaints",
+      "mean_abs_shap": 0.8838203307749192
+    },
+    {
+      "feature": "avg_monthly_fees",
+      "mean_abs_shap": 0.5033909818258918
+    },
+    {
+      "feature": "has_credit_card",
+      "mean_abs_shap": 0.3802763267749127
+    },
+    {
+      "feature": "balance_volatility",
+      "mean_abs_shap": 0.25952201759126164
+    },
+    {
+      "feature": "marital_status_Single",
+      "mean_abs_shap": 0.22664154154081487
+    },
+    {
+      "feature": "fee_to_balance_ratio",
+      "mean_abs_shap": 0.20794535379076914
+    },
+    {
+      "feature": "debt_to_income",
+      "mean_abs_shap": 0.15859488260989943
+    },
+    {
+      "feature": "app_usage_minutes",
+      "mean_abs_shap": 0.12876130175576816
+    },
+    {
+      "feature": "satisfaction_score",
+      "mean_abs_shap": 0.1263624138435053
+    },
+    {
+      "feature": "customer_service_calls",
+      "mean_abs_shap": 0.11954303504033327
+    },
+    {
+      "feature": "balance_growth_rate",
+      "mean_abs_shap": 0.11296448634977645
+    },
+    {
+      "feature": "has_investment_account",
+      "mean_abs_shap": 0.10982277965769403
+    },
+    {
+      "feature": "activity_score",
+      "mean_abs_shap": 0.10934178232519141
+    },
+    {
+      "feature": "has_insurance",
+      "mean_abs_shap": 0.09036260081108997
+    },
+    {
+      "feature": "age_group",
+      "mean_abs_shap": 0.08938029811893539
+    },
+    {
+      "feature": "credit_score",
+      "mean_abs_shap": 0.08875759598131483
+    },
+    {
+      "feature": "occupation_type_Service",
+      "mean_abs_shap": 0.08693607706665607
+    },
+    {
+      "feature": "balance_trend",
+      "mean_abs_shap": 0.08563252535797825
+    },
+    {
+      "feature": "avg_account_balance",
+      "mean_abs_shap": 0.08212671000160825
+    },
+    {
+      "feature": "age",
+      "mean_abs_shap": 0.08162063588821794
+    },
+    {
+      "feature": "penalty_charges",
+      "mean_abs_shap": 0.08029023769665018
+    },
+    {
+      "feature": "salary_consistency",
+      "mean_abs_shap": 0.08027915634950485
+    },
+    {
+      "feature": "complaint_resolution_days",
+      "mean_abs_shap": 0.0781086294230799
+    },
+    {
+      "feature": "service_quality_rating",
+      "mean_abs_shap": 0.0770221441062922
+    },
+    {
+      "feature": "customer_since",
+      "mean_abs_shap": 0.07581467079173279
+    },
+    {
+      "feature": "income",
+      "mean_abs_shap": 0.07380327438895547
+    },
+    {
+      "feature": "reward_points",
+      "mean_abs_shap": 0.0720330507250688
+    },
+    {
+      "feature": "credit_inquiry_count",
+      "mean_abs_shap": 0.06818556792570414
+    },
+    {
+      "feature": "promotion_response_rate",
+      "mean_abs_shap": 0.06731226815301744
+    },
+    {
+      "feature": "education_level_Bachelor",
+      "mean_abs_shap": 0.06430726579709546
+    },
+    {
+      "feature": "digital_adoption",
+      "mean_abs_shap": 0.06412774330699308
+    },
+    {
+      "feature": "occupation_type_Student",
+      "mean_abs_shap": 0.06300001509165457
+    },
+    {
+      "feature": "family_size",
+      "mean_abs_shap": 0.062324796273006376
+    },
+    {
+      "feature": "product_diversity_score",
+      "mean_abs_shap": 0.05858177299613412
+    },
+    {
+      "feature": "promotions_sent",
+      "mean_abs_shap": 0.056122422213819884
+    },
+    {
+      "feature": "overdraft_amount",
+      "mean_abs_shap": 0.05542871336380728
+    },
+    {
+      "feature": "login_frequency",
+      "mean_abs_shap": 0.05316348713539245
+    },
+    {
+      "feature": "education_level_Master",
+      "mean_abs_shap": 0.051892836996330224
+    },
+    {
+      "feature": "total_transactions",
+      "mean_abs_shap": 0.05076171897104968
+    },
+    {
+      "feature": "tenure_months",
+      "mean_abs_shap": 0.04994368012132688
+    },
+    {
+      "feature": "credit_utilization",
+      "mean_abs_shap": 0.048239820634299664
+    },
+    {
+      "feature": "num_products",
+      "mean_abs_shap": 0.048076420803065255
+    },
+    {
+      "feature": "income_bracket",
+      "mean_abs_shap": 0.04411497019880304
+    },
+    {
+      "feature": "withdrawal_ratio",
+      "mean_abs_shap": 0.040216727316319284
+    },
+    {
+      "feature": "marital_status_Married",
+      "mean_abs_shap": 0.03900031472613532
+    },
+    {
+      "feature": "occupation_type_Retired",
+      "mean_abs_shap": 0.038876278279926936
+    },
+    {
+      "feature": "occupation_type_Business",
+      "mean_abs_shap": 0.03767130110137676
+    },
+    {
+      "feature": "occupation_type_Professional",
+      "mean_abs_shap": 0.036244267382894685
+    },
+    {
+      "feature": "has_mortgage",
+      "mean_abs_shap": 0.028414086323701036
+    },
+    {
+      "feature": "region_Thane",
+      "mean_abs_shap": 0.028214470682088506
+    },
+    {
+      "feature": "account_type_Current Account",
+      "mean_abs_shap": 0.024916562820873355
+    },
+    {
+      "feature": "num_loan_defaults",
+      "mean_abs_shap": 0.020456391536431615
+    },
+    {
+      "feature": "education_level_High School",
+      "mean_abs_shap": 0.019468154147016126
+    },
+    {
+      "feature": "account_type_Fixed Deposit",
+      "mean_abs_shap": 0.019400704918460528
+    },
+    {
+      "feature": "region_Indore",
+      "mean_abs_shap": 0.01763705521595016
+    },
+    {
+      "feature": "account_type_Salary Account",
+      "mean_abs_shap": 0.01740229814378076
+    },
+    {
+      "feature": "escalation_count",
+      "mean_abs_shap": 0.016842959051978933
+    },
+    {
+      "feature": "account_type_NRI Account",
+      "mean_abs_shap": 0.015581175730510783
+    },
+    {
+      "feature": "marital_status_Divorced",
+      "mean_abs_shap": 0.015148280763895731
+    },
+    {
+      "feature": "region_Kolkata",
+      "mean_abs_shap": 0.013467898149654045
+    },
+    {
+      "feature": "account_type_Savings Account",
+      "mean_abs_shap": 0.012928768457060908
+    },
+    {
+      "feature": "account_type_Student Account",
+      "mean_abs_shap": 0.01208163919942709
+    },
+    {
+      "feature": "region_Mumbai",
+      "mean_abs_shap": 0.011664902442787974
+    },
+    {
+      "feature": "account_type_Recurring Deposit",
+      "mean_abs_shap": 0.011460507751192136
+    },
+    {
+      "feature": "is_new_customer",
+      "mean_abs_shap": 0.01017272028592968
+    },
+    {
+      "feature": "region_Kanpur",
+      "mean_abs_shap": 0.009804796079536484
+    },
+    {
+      "feature": "account_type_Senior Citizen Account",
+      "mean_abs_shap": 0.009732700266031126
+    },
+    {
+      "feature": "region_Bangalore",
+      "mean_abs_shap": 0.009636384879157125
+    },
+    {
+      "feature": "education_level_PhD",
+      "mean_abs_shap": 0.00954401802475247
+    },
+    {
+      "feature": "account_type_Basic Savings",
+      "mean_abs_shap": 0.009388953669663079
+    },
+    {
+      "feature": "region_Ahmedabad",
+      "mean_abs_shap": 0.009307032322958188
+    },
+    {
+      "feature": "region_Pune",
+      "mean_abs_shap": 0.008685081928508604
+    },
+    {
+      "feature": "region_Hyderabad",
+      "mean_abs_shap": 0.005581776809585031
+    },
+    {
+      "feature": "region_Patna",
+      "mean_abs_shap": 0.005497848464155329
+    },
+    {
+      "feature": "region_Chennai",
+      "mean_abs_shap": 0.005466913039444183
+    },
+    {
+      "feature": "tenure_segment",
+      "mean_abs_shap": 0.004752746688520401
+    },
+    {
+      "feature": "region_Vadodara",
+      "mean_abs_shap": 0.004187591771934699
+    },
+    {
+      "feature": "region_Nagpur",
+      "mean_abs_shap": 0.0039522229512418735
+    },
+    {
+      "feature": "marital_status_Widowed",
+      "mean_abs_shap": 0.0036489838516107647
+    },
+    {
+      "feature": "region_Visakhapatnam",
+      "mean_abs_shap": 0.0034473730103386376
+    },
+    {
+      "feature": "region_Lucknow",
+      "mean_abs_shap": 0.003438499422423368
+    },
+    {
+      "feature": "region_Jaipur",
+      "mean_abs_shap": 0.0030844461892656984
+    },
+    {
+      "feature": "region_Delhi",
+      "mean_abs_shap": 0.0025282440760232734
+    },
+    {
+      "feature": "region_Bhopal",
+      "mean_abs_shap": 0.002300171874761084
+    },
+    {
+      "feature": "region_Surat",
+      "mean_abs_shap": 0.00103091774466175
+    },
+    {
+      "feature": "region_Ludhiana",
+      "mean_abs_shap": 0.0
+    }
+  ],
+  "top_positive_drivers": [
+    {
+      "feature": "region_Ludhiana",
+      "mean_shap": 0.0
+    },
+    {
+      "feature": "region_Surat",
+      "mean_shap": -0.00025251122833389305
+    },
+    {
+      "feature": "region_Delhi",
+      "mean_shap": -0.0004377246866750664
+    },
+    {
+      "feature": "tenure_segment",
+      "mean_shap": -0.000518849300297454
+    },
+    {
+      "feature": "region_Patna",
+      "mean_shap": -0.0005435319465376613
+    },
+    {
+      "feature": "is_new_customer",
+      "mean_shap": -0.0005602575847086173
+    },
+    {
+      "feature": "region_Jaipur",
+      "mean_shap": -0.000685895814817465
+    },
+    {
+      "feature": "region_Lucknow",
+      "mean_shap": -0.0008781030792008766
+    },
+    {
+      "feature": "region_Pune",
+      "mean_shap": -0.0009907773331688978
+    },
+    {
+      "feature": "region_Nagpur",
+      "mean_shap": -0.0010253767871416727
+    },
+    {
+      "feature": "region_Bhopal",
+      "mean_shap": -0.0010266270228881848
+    },
+    {
+      "feature": "region_Visakhapatnam",
+      "mean_shap": -0.0011733034635630188
+    },
+    {
+      "feature": "region_Mumbai",
+      "mean_shap": -0.0014431844848098998
+    },
+    {
+      "feature": "region_Vadodara",
+      "mean_shap": -0.0016034411725924015
+    },
+    {
+      "feature": "region_Hyderabad",
+      "mean_shap": -0.0016281870822097149
+    }
+  ],
+  "top_negative_drivers": [
+    {
+      "feature": "overdraft_frequency",
+      "mean_shap": -1.0145285382212992
+    },
+    {
+      "feature": "num_complaints",
+      "mean_shap": -0.8691760371815522
+    },
+    {
+      "feature": "days_since_last_login",
+      "mean_shap": -0.630044711719956
+    },
+    {
+      "feature": "has_credit_card",
+      "mean_shap": -0.3802763267749127
+    },
+    {
+      "feature": "marital_status_Single",
+      "mean_shap": -0.22639790069754462
+    },
+    {
+      "feature": "avg_monthly_fees",
+      "mean_shap": -0.13476210955498086
+    },
+    {
+      "feature": "has_investment_account",
+      "mean_shap": -0.1096968310188523
+    },
+    {
+      "feature": "customer_service_calls",
+      "mean_shap": -0.1072494708383347
+    },
+    {
+      "feature": "has_insurance",
+      "mean_shap": -0.08964412757972533
+    },
+    {
+      "feature": "occupation_type_Service",
+      "mean_shap": -0.0864900124092957
+    },
+    {
+      "feature": "credit_inquiry_count",
+      "mean_shap": -0.066694329149643
+    },
+    {
+      "feature": "education_level_Bachelor",
+      "mean_shap": -0.06421342941756726
+    },
+    {
+      "feature": "occupation_type_Student",
+      "mean_shap": -0.0626644565436186
+    },
+    {
+      "feature": "balance_volatility",
+      "mean_shap": -0.05392518425437255
+    },
+    {
+      "feature": "education_level_Master",
+      "mean_shap": -0.048039524446329286
+    }
+  ]
+}

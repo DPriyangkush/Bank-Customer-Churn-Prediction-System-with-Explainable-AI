@@ -1,0 +1,11 @@
+driver_category,normalized_importance,feature_count,top_features,model_version,export_timestamp
+Low Engagement,0.2700875804469404,10,"days_since_last_login, overdraft_frequency, app_usage_minutes",v1.0,2025-10-25 01:58:17.730607
+High Fees,0.16606824781282076,6,"overdraft_frequency, avg_monthly_fees, fee_to_balance_ratio",v1.0,2025-10-25 01:58:17.730607
+Demographics,0.12560826888994106,41,"marital_status_Single, debt_to_income, app_usage_minutes",v1.0,2025-10-25 01:58:17.730607
+Balance Fluctuations,0.11571110621756679,9,"avg_monthly_fees, balance_volatility, fee_to_balance_ratio",v1.0,2025-10-25 01:58:17.730607
+Poor Service,0.1156407652385601,7,"num_complaints, satisfaction_score, customer_service_calls",v1.0,2025-10-25 01:58:17.730607
+Credit Issues,0.0881729121390207,9,"has_credit_card, debt_to_income, satisfaction_score",v1.0,2025-10-25 01:58:17.730607
+Low Product Holding,0.05958719371046757,6,"has_credit_card, has_investment_account, has_insurance",v1.0,2025-10-25 01:58:17.730607
+Contract Events,0.0236871054263065,4,"marital_status_Single, marital_status_Married, marital_status_Divorced",v1.0,2025-10-25 01:58:17.730607
+Short Tenure,0.01915894323448806,5,"age_group, customer_since, tenure_months",v1.0,2025-10-25 01:58:17.730607
+Personalization & Offers,0.01627787688388799,3,"reward_points, promotion_response_rate, promotions_sent",v1.0,2025-10-25 01:58:17.730607

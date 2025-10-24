@@ -1,0 +1,233 @@
+{
+  "version": "v1.0",
+  "timestamp": "2025-10-25T01:24:07.798342",
+  "feature_count": 88,
+  "shap_values_shape": [
+    1000,
+    88
+  ],
+  "top_features": [
+    {
+      "feature": "days_since_last_login",
+      "mean_abs_shap": 1.401082193950459
+    },
+    {
+      "feature": "overdraft_frequency",
+      "mean_abs_shap": 1.1069060657777132
+    },
+    {
+      "feature": "num_complaints",
+      "mean_abs_shap": 0.8838203307749192
+    },
+    {
+      "feature": "avg_monthly_fees",
+      "mean_abs_shap": 0.5033909818258918
+    },
+    {
+      "feature": "has_credit_card",
+      "mean_abs_shap": 0.3802763267749127
+    },
+    {
+      "feature": "balance_volatility",
+      "mean_abs_shap": 0.25952201759126164
+    },
+    {
+      "feature": "marital_status_Single",
+      "mean_abs_shap": 0.22664154154081487
+    },
+    {
+      "feature": "fee_to_balance_ratio",
+      "mean_abs_shap": 0.20794535379076914
+    },
+    {
+      "feature": "debt_to_income",
+      "mean_abs_shap": 0.15859488260989943
+    },
+    {
+      "feature": "app_usage_minutes",
+      "mean_abs_shap": 0.12876130175576816
+    }
+  ],
+  "driver_summary": {
+    "Low Engagement": {
+      "importance": 0.2700875804469404,
+      "feature_count": 10,
+      "top_features": [
+        {
+          "feature": "days_since_last_login",
+          "mean_abs_shap": 1.401082193950459
+        },
+        {
+          "feature": "overdraft_frequency",
+          "mean_abs_shap": 1.1069060657777132
+        },
+        {
+          "feature": "app_usage_minutes",
+          "mean_abs_shap": 0.12876130175576816
+        }
+      ]
+    },
+    "High Fees": {
+      "importance": 0.16606824781282076,
+      "feature_count": 6,
+      "top_features": [
+        {
+          "feature": "overdraft_frequency",
+          "mean_abs_shap": 1.1069060657777132
+        },
+        {
+          "feature": "avg_monthly_fees",
+          "mean_abs_shap": 0.5033909818258918
+        },
+        {
+          "feature": "fee_to_balance_ratio",
+          "mean_abs_shap": 0.20794535379076914
+        }
+      ]
+    },
+    "Poor Service": {
+      "importance": 0.1156407652385601,
+      "feature_count": 7,
+      "top_features": [
+        {
+          "feature": "num_complaints",
+          "mean_abs_shap": 0.8838203307749192
+        },
+        {
+          "feature": "satisfaction_score",
+          "mean_abs_shap": 0.1263624138435053
+        },
+        {
+          "feature": "customer_service_calls",
+          "mean_abs_shap": 0.11954303504033327
+        }
+      ]
+    },
+    "Low Product Holding": {
+      "importance": 0.05958719371046757,
+      "feature_count": 6,
+      "top_features": [
+        {
+          "feature": "has_credit_card",
+          "mean_abs_shap": 0.3802763267749127
+        },
+        {
+          "feature": "has_investment_account",
+          "mean_abs_shap": 0.10982277965769403
+        },
+        {
+          "feature": "has_insurance",
+          "mean_abs_shap": 0.09036260081108997
+        }
+      ]
+    },
+    "Short Tenure": {
+      "importance": 0.01915894323448806,
+      "feature_count": 5,
+      "top_features": [
+        {
+          "feature": "age_group",
+          "mean_abs_shap": 0.08938029811893539
+        },
+        {
+          "feature": "customer_since",
+          "mean_abs_shap": 0.07581467079173279
+        },
+        {
+          "feature": "tenure_months",
+          "mean_abs_shap": 0.04994368012132688
+        }
+      ]
+    },
+    "Balance Fluctuations": {
+      "importance": 0.11571110621756679,
+      "feature_count": 9,
+      "top_features": [
+        {
+          "feature": "avg_monthly_fees",
+          "mean_abs_shap": 0.5033909818258918
+        },
+        {
+          "feature": "balance_volatility",
+          "mean_abs_shap": 0.25952201759126164
+        },
+        {
+          "feature": "fee_to_balance_ratio",
+          "mean_abs_shap": 0.20794535379076914
+        }
+      ]
+    },
+    "Demographics": {
+      "importance": 0.12560826888994106,
+      "feature_count": 41,
+      "top_features": [
+        {
+          "feature": "marital_status_Single",
+          "mean_abs_shap": 0.22664154154081487
+        },
+        {
+          "feature": "debt_to_income",
+          "mean_abs_shap": 0.15859488260989943
+        },
+        {
+          "feature": "app_usage_minutes",
+          "mean_abs_shap": 0.12876130175576816
+        }
+      ]
+    },
+    "Credit Issues": {
+      "importance": 0.0881729121390207,
+      "feature_count": 9,
+      "top_features": [
+        {
+          "feature": "has_credit_card",
+          "mean_abs_shap": 0.3802763267749127
+        },
+        {
+          "feature": "debt_to_income",
+          "mean_abs_shap": 0.15859488260989943
+        },
+        {
+          "feature": "satisfaction_score",
+          "mean_abs_shap": 0.1263624138435053
+        }
+      ]
+    },
+    "Personalization & Offers": {
+      "importance": 0.01627787688388799,
+      "feature_count": 3,
+      "top_features": [
+        {
+          "feature": "reward_points",
+          "mean_abs_shap": 0.0720330507250688
+        },
+        {
+          "feature": "promotion_response_rate",
+          "mean_abs_shap": 0.06731226815301744
+        },
+        {
+          "feature": "promotions_sent",
+          "mean_abs_shap": 0.056122422213819884
+        }
+      ]
+    },
+    "Contract Events": {
+      "importance": 0.0236871054263065,
+      "feature_count": 4,
+      "top_features": [
+        {
+          "feature": "marital_status_Single",
+          "mean_abs_shap": 0.22664154154081487
+        },
+        {
+          "feature": "marital_status_Married",
+          "mean_abs_shap": 0.03900031472613532
+        },
+        {
+          "feature": "marital_status_Divorced",
+          "mean_abs_shap": 0.015148280763895731
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,11 @@
+metric_name,metric_value,metric_category,model_version,export_timestamp
+AUC Score,0.8131018518518518,Model Performance,v1.0,2025-10-25 01:58:17.454603
+Accuracy,0.8766666666666667,Model Performance,v1.0,2025-10-25 01:58:17.454603
+Precision,0.8608,Model Performance,v1.0,2025-10-25 01:58:17.454603
+Recall,0.8766666666666667,Model Performance,v1.0,2025-10-25 01:58:17.454603
+F1 Score,0.39344262295081966,Model Performance,v1.0,2025-10-25 01:58:17.454603
+PR AUC,0.41737938062042046,Model Performance,v1.0,2025-10-25 01:58:17.454603
+Optimal Threshold,0.3248178864607552,Threshold,v1.0,2025-10-25 01:58:17.454603
+True Positive Rate,0.3333333333333333,Classification,v1.0,2025-10-25 01:58:17.454603
+True Negative Rate,0.9507575757575758,Classification,v1.0,2025-10-25 01:58:17.454603
+Balanced Accuracy,0.6420454545454546,Classification,v1.0,2025-10-25 01:58:17.454603

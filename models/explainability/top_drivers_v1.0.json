@@ -1,0 +1,86 @@
+{
+  "top_positive": [
+    {
+      "feature": "region_Ludhiana",
+      "mean_shap": 0.0
+    },
+    {
+      "feature": "region_Surat",
+      "mean_shap": -0.00025251122833389305
+    },
+    {
+      "feature": "region_Delhi",
+      "mean_shap": -0.0004377246866750664
+    },
+    {
+      "feature": "tenure_segment",
+      "mean_shap": -0.000518849300297454
+    },
+    {
+      "feature": "region_Patna",
+      "mean_shap": -0.0005435319465376613
+    },
+    {
+      "feature": "is_new_customer",
+      "mean_shap": -0.0005602575847086173
+    },
+    {
+      "feature": "region_Jaipur",
+      "mean_shap": -0.000685895814817465
+    },
+    {
+      "feature": "region_Lucknow",
+      "mean_shap": -0.0008781030792008766
+    },
+    {
+      "feature": "region_Pune",
+      "mean_shap": -0.0009907773331688978
+    },
+    {
+      "feature": "region_Nagpur",
+      "mean_shap": -0.0010253767871416727
+    }
+  ],
+  "top_negative": [
+    {
+      "feature": "overdraft_frequency",
+      "mean_shap": -1.0145285382212992
+    },
+    {
+      "feature": "num_complaints",
+      "mean_shap": -0.8691760371815522
+    },
+    {
+      "feature": "days_since_last_login",
+      "mean_shap": -0.630044711719956
+    },
+    {
+      "feature": "has_credit_card",
+      "mean_shap": -0.3802763267749127
+    },
+    {
+      "feature": "marital_status_Single",
+      "mean_shap": -0.22639790069754462
+    },
+    {
+      "feature": "avg_monthly_fees",
+      "mean_shap": -0.13476210955498086
+    },
+    {
+      "feature": "has_investment_account",
+      "mean_shap": -0.1096968310188523
+    },
+    {
+      "feature": "customer_service_calls",
+      "mean_shap": -0.1072494708383347
+    },
+    {
+      "feature": "has_insurance",
+      "mean_shap": -0.08964412757972533
+    },
+    {
+      "feature": "occupation_type_Service",
+      "mean_shap": -0.0864900124092957
+    }
+  ]
+}
