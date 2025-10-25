@@ -7,7 +7,7 @@ The system automatically selects the **best-performing model** from **XGBoost**,
 
 ## 🎥 Complete Workflow Demo
 
-> ▶️ [Watch Full System Workflow on YouTube](https://youtu.be/your-video-link-here)  
+> ▶️ [Watch Full System Workflow on YouTube]([https://youtu.be/your-video-link-here](https://youtu.be/bN494w5L6e8?si=rxQyoc8KwHhbzC9V))  
 > 
 
 ---
